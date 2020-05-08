@@ -13,6 +13,7 @@
 		108DE48D2465F6E600036625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108DE48B2465F6E600036625 /* Main.storyboard */; };
 		108DE48F2465F6E900036625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108DE48E2465F6E900036625 /* Assets.xcassets */; };
 		108DE4922465F6E900036625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108DE4902465F6E900036625 /* LaunchScreen.storyboard */; };
+		108DE49A24660D5500036625 /* WordSearchObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108DE49924660D5500036625 /* WordSearchObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		108DE48E2465F6E900036625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		108DE4912465F6E900036625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		108DE4932465F6E900036625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		108DE49924660D5500036625 /* WordSearchObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSearchObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,38 @@
 			children = (
 				108DE4852465F6E600036625 /* AppDelegate.swift */,
 				108DE4872465F6E600036625 /* SceneDelegate.swift */,
-				108DE4892465F6E600036625 /* ViewController.swift */,
-				108DE48B2465F6E600036625 /* Main.storyboard */,
+				108DE49B24660D5C00036625 /* Model */,
+				108DE49C24660D7D00036625 /* Controller */,
+				108DE49D24660D8600036625 /* View */,
 				108DE48E2465F6E900036625 /* Assets.xcassets */,
 				108DE4902465F6E900036625 /* LaunchScreen.storyboard */,
 				108DE4932465F6E900036625 /* Info.plist */,
 			);
 			path = ShopifyWordSearchGame;
+			sourceTree = "<group>";
+		};
+		108DE49B24660D5C00036625 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				108DE49924660D5500036625 /* WordSearchObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		108DE49C24660D7D00036625 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				108DE4892465F6E600036625 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		108DE49D24660D8600036625 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				108DE48B2465F6E600036625 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +167,7 @@
 			files = (
 				108DE48A2465F6E600036625 /* ViewController.swift in Sources */,
 				108DE4862465F6E600036625 /* AppDelegate.swift in Sources */,
+				108DE49A24660D5500036625 /* WordSearchObject.swift in Sources */,
 				108DE4882465F6E600036625 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
