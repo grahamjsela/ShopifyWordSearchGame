@@ -8,6 +8,6 @@
 
 import Foundation
 
-struct wordSearchObject {
+struct WordSearchObject {
     var words = ["OBJECTIVEC", "KOTLIN", "HIRE", "LEARN", "INTERN", "SWIFT", "MOBILE", "VARIABLE", "JAVA"]
 }

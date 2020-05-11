@@ -10,6 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var Swift: UILabel!
+    @IBOutlet weak var Kotlin: UILabel!
+    @IBOutlet weak var ObjectiveC: UILabel!
+    @IBOutlet weak var Variable: UILabel!
+    @IBOutlet weak var Java: UILabel!
+    @IBOutlet weak var Mobile: UILabel!
+    @IBOutlet weak var Hire: UILabel!
+    @IBOutlet weak var Intern: UILabel!
+    @IBOutlet weak var Learn: UILabel!
     
     @IBOutlet weak var rand1: UIButton!
     @IBOutlet weak var rand2: UIButton!
@@ -121,16 +130,84 @@ class ViewController: UIViewController {
     @IBOutlet weak var hireR: UIButton!
     @IBOutlet weak var hireE: UIButton!
     
+    var wordFind: String! = ""
     
+    var wordSearchObject = WordSearchObject()
+    
+    var colorArray: [UIButton]! = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
     
     
     @IBAction func letterClicked(_ sender: UIButton) {
         //Need to create a word that keeps track of letters clicked. compare against struct.
+
+        wordFind = wordFind + String(sender.currentTitle!)
+        
+        print(wordFind!)
+        
+        charGuess(sender)
+    }
+    
+    func reset() {
+        
+        wordFind = ""
+        for element in colorArray {
+            element.backgroundColor = UIColor.clear
+        }
+        colorArray.removeAll()
+        
+    }
+    
+    func charGuess(_ sender: UIButton) {
+        
+        
+        for word in wordSearchObject.words {
+            if word.hasPrefix(wordFind) {
+                if wordFind.count == word.count{
+                    
+                    for element in colorArray{
+                        element.backgroundColor = UIColor.green
+                        colorArray.removeAll()
+                        foundWord();
+                    }
+                    
+                } else{
+                    sender.backgroundColor = UIColor.yellow
+                    colorArray.append(sender)
+                    return
+                    
+                }
+            }
+        }
+        reset()
+    }
+    
+    func foundWord() {
+        
+        if (wordFind == "KOTLIN") {
+            Kotlin.backgroundColor = UIColor.green
+        } else if (wordFind == "VARIABLE") {
+           Variable.backgroundColor = UIColor.green
+        } else if (wordFind == "JAVA") {
+            Java.backgroundColor = UIColor.green
+        } else if (wordFind == "INTERN") {
+            Intern.backgroundColor = UIColor.green
+        } else if (wordFind == "HIRE") {
+            Hire.backgroundColor = UIColor.green
+        } else if (wordFind == "LEARN") {
+            Learn.backgroundColor = UIColor.green
+        } else if (wordFind == "SWIFT") {
+            Swift.backgroundColor = UIColor.green
+        } else if (wordFind == "OBJECTIVEC") {
+            ObjectiveC.backgroundColor = UIColor.green
+        } else if (wordFind == "MOBILE") {
+            Mobile.backgroundColor = UIColor.green
+        }
     }
     
     

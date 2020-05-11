@@ -56,6 +56,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="Ogf-Xu-dEm"/>
                                                 </constraints>
                                                 <state key="normal" title="B"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xTg-qU-djS"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2s7-L0-fwh" userLabel="objcJ">
                                                 <rect key="frame" x="61" y="283" width="22" height="22"/>
@@ -64,6 +67,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="v6C-RF-CIi"/>
                                                 </constraints>
                                                 <state key="normal" title="J"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e5W-pt-78U"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="20q-Ci-rY3" userLabel="objcE">
                                                 <rect key="frame" x="61" y="312" width="22" height="22"/>
@@ -72,6 +78,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="sEm-nv-Z3n"/>
                                                 </constraints>
                                                 <state key="normal" title="E"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x5J-Wz-fqx"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JP4-0C-NW1" userLabel="objcC">
                                                 <rect key="frame" x="61" y="342" width="22" height="22"/>
@@ -80,6 +89,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="ChA-64-n1w"/>
                                                 </constraints>
                                                 <state key="normal" title="C"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZLU-ut-8c3"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPd-aq-gen" userLabel="objcT">
                                                 <rect key="frame" x="61" y="371" width="22" height="22"/>
@@ -88,6 +100,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="H7r-le-sPc"/>
                                                 </constraints>
                                                 <state key="normal" title="T"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fvU-1j-s7e"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7yU-mY-d4F" userLabel="objcI">
                                                 <rect key="frame" x="61" y="401" width="22" height="22"/>
@@ -96,6 +111,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="P01-sy-5AS"/>
                                                 </constraints>
                                                 <state key="normal" title="I"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IaI-gK-pd5"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zYQ-Ez-sby" userLabel="objcV">
                                                 <rect key="frame" x="61" y="431" width="22" height="22"/>
@@ -104,6 +122,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="HRU-wf-Uay"/>
                                                 </constraints>
                                                 <state key="normal" title="V"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kMo-hE-WPI"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nG-lt-X1R" userLabel="objcE2">
                                                 <rect key="frame" x="61" y="461" width="22" height="22"/>
@@ -112,6 +133,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="rUI-Mb-CiY"/>
                                                 </constraints>
                                                 <state key="normal" title="E"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cyM-rn-RSC"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cR7-db-9a6" userLabel="objcC2">
                                                 <rect key="frame" x="61" y="489" width="22" height="22"/>
@@ -120,6 +144,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="Gnj-EA-0kF"/>
                                                 </constraints>
                                                 <state key="normal" title="C"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ySf-hl-Wb7"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dZl-bi-cPR" userLabel="learnL">
                                                 <rect key="frame" x="329" y="372" width="22" height="22"/>
@@ -128,6 +155,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="dFc-eP-Gk2"/>
                                                 </constraints>
                                                 <state key="normal" title="L"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sCU-mA-cwk"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QGT-lX-dl3" userLabel="swiftF">
                                                 <rect key="frame" x="212" y="461" width="22" height="22"/>
@@ -136,6 +166,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="Fl3-cr-Ulz"/>
                                                 </constraints>
                                                 <state key="normal" title="F"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nNm-ge-JR0"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZX-Wc-9Hc" userLabel="swiftT">
                                                 <rect key="frame" x="243" y="462" width="22" height="22"/>
@@ -144,6 +177,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="tku-bb-Tqi"/>
                                                 </constraints>
                                                 <state key="normal" title="T"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hXR-CG-3bp"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tqu-N1-ogS" userLabel="swiftI">
                                                 <rect key="frame" x="182" y="462" width="22" height="22"/>
@@ -152,6 +188,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="rGn-cx-Hxi"/>
                                                 </constraints>
                                                 <state key="normal" title="I"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pil-ll-Ekg"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPN-tD-2nx" userLabel="swiftW">
                                                 <rect key="frame" x="152" y="462" width="22" height="22"/>
@@ -160,6 +199,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="tg5-xu-J3G"/>
                                                 </constraints>
                                                 <state key="normal" title="W"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rXQ-3f-Fdi"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z05-hN-ZxI" userLabel="hireI">
                                                 <rect key="frame" x="270" y="431" width="22" height="22"/>
@@ -168,6 +210,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="g64-Y3-h9F"/>
                                                 </constraints>
                                                 <state key="normal" title="I"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HPa-uT-Rqh"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L80-t9-PZo" userLabel="learnE">
                                                 <rect key="frame" x="329" y="401" width="22" height="22"/>
@@ -176,6 +221,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="uGC-Xq-ygH"/>
                                                 </constraints>
                                                 <state key="normal" title="E"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="83D-2j-imI"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FME-uk-yo7" userLabel="learnA">
                                                 <rect key="frame" x="329" y="432" width="22" height="22"/>
@@ -184,6 +232,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="olH-Ul-5EU"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BK9-cQ-f5e"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jf9-Th-Mc3" userLabel="learnR">
                                                 <rect key="frame" x="329" y="462" width="22" height="22"/>
@@ -192,6 +243,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="kan-VF-Fwl"/>
                                                 </constraints>
                                                 <state key="normal" title="R"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xun-Ji-c5p"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WbW-Ht-Z6W" userLabel="learnN">
                                                 <rect key="frame" x="329" y="490" width="22" height="22"/>
@@ -200,6 +254,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="vl4-cw-MQD"/>
                                                 </constraints>
                                                 <state key="normal" title="N"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EdA-z6-wc4"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sQ-Az-TCE" userLabel="internN2">
                                                 <rect key="frame" x="91" y="461" width="22" height="22"/>
@@ -208,6 +265,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="pB9-Es-n3g"/>
                                                 </constraints>
                                                 <state key="normal" title="N"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GGd-YG-zZl"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qA6-bF-5as" userLabel="internI">
                                                 <rect key="frame" x="91" y="312" width="22" height="22"/>
@@ -216,6 +276,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="QFc-4J-gPl"/>
                                                 </constraints>
                                                 <state key="normal" title="I"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n6l-qF-Mlo"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfN-dS-Z0S" userLabel="internN">
                                                 <rect key="frame" x="91" y="343" width="22" height="22"/>
@@ -224,6 +287,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="UTk-fP-rUT"/>
                                                 </constraints>
                                                 <state key="normal" title="N"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K0L-V4-EIf"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FXm-zs-pvR" userLabel="internT">
                                                 <rect key="frame" x="91" y="371" width="22" height="22"/>
@@ -232,6 +298,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="cKD-7b-ve7"/>
                                                 </constraints>
                                                 <state key="normal" title="T"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jCT-cI-xtj"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vFY-3i-t2I" userLabel="internE">
                                                 <rect key="frame" x="91" y="401" width="22" height="22"/>
@@ -240,6 +309,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="mYX-XA-tuw"/>
                                                 </constraints>
                                                 <state key="normal" title="E"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Krw-cq-Jhz"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jcs-Wl-6LQ" userLabel="internR">
                                                 <rect key="frame" x="91" y="431" width="22" height="22"/>
@@ -248,6 +320,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="XgC-dm-4nQ"/>
                                                 </constraints>
                                                 <state key="normal" title="R"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WO3-vi-nsB"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tmw-4M-DJY" userLabel="kotlinN">
                                                 <rect key="frame" x="272" y="283" width="22" height="22"/>
@@ -256,6 +331,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="Q7K-RP-mG9"/>
                                                 </constraints>
                                                 <state key="normal" title="N"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J7O-80-8Gf"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IYt-3I-BaN" userLabel="kotlinK">
                                                 <rect key="frame" x="122" y="283" width="22" height="22"/>
@@ -264,6 +342,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="xCv-Yd-cvh"/>
                                                 </constraints>
                                                 <state key="normal" title="K"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T1Q-7E-l1s"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zyt-uB-TSw" userLabel="kotlinO">
                                                 <rect key="frame" x="152" y="283" width="22" height="22"/>
@@ -272,6 +353,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="gLY-Qy-Ceb"/>
                                                 </constraints>
                                                 <state key="normal" title="O"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bbe-dd-FXa"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bsg-Sf-UR5" userLabel="kotlinT">
                                                 <rect key="frame" x="182" y="283" width="22" height="22"/>
@@ -280,6 +364,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="BUl-vA-v6s"/>
                                                 </constraints>
                                                 <state key="normal" title="T"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ryC-Yz-9tz"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wKX-pf-b5f" userLabel="kotlinL">
                                                 <rect key="frame" x="212" y="283" width="22" height="22"/>
@@ -288,6 +375,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="X9f-wG-fj7"/>
                                                 </constraints>
                                                 <state key="normal" title="L"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fts-OD-H1i"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EGr-zd-WLf" userLabel="kotlinI">
                                                 <rect key="frame" x="242" y="283" width="22" height="22"/>
@@ -296,6 +386,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="1uN-y2-Osr"/>
                                                 </constraints>
                                                 <state key="normal" title="I"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q88-7R-zfW"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rgF-Km-e1z" userLabel="mobileE">
                                                 <rect key="frame" x="330" y="312" width="22" height="22"/>
@@ -304,6 +397,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="kZ5-3d-CqC"/>
                                                 </constraints>
                                                 <state key="normal" title="E"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JL1-xf-eL1"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="llZ-s1-XN2" userLabel="variableE">
                                                 <rect key="frame" x="329" y="223" width="22" height="22"/>
@@ -312,6 +408,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="kDR-iJ-N8d"/>
                                                 </constraints>
                                                 <state key="normal" title="E"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="leY-14-7g7"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jcx-Q0-QEI" userLabel="mobileM">
                                                 <rect key="frame" x="182" y="314" width="22" height="22"/>
@@ -320,6 +419,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="f7H-Cq-T2y"/>
                                                 </constraints>
                                                 <state key="normal" title="M"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7pL-2t-h2R"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZyP-yJ-nAa" userLabel="mobileO">
                                                 <rect key="frame" x="212" y="314" width="22" height="22"/>
@@ -328,6 +430,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="gN7-PJ-T8G"/>
                                                 </constraints>
                                                 <state key="normal" title="O"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PSc-G2-2MI"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QmV-9p-mBR" userLabel="mobileB">
                                                 <rect key="frame" x="242" y="313" width="22" height="22"/>
@@ -336,6 +441,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="Zmn-vj-vYi"/>
                                                 </constraints>
                                                 <state key="normal" title="B"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fGd-56-v0a"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zvu-O5-dvh" userLabel="mobileI">
                                                 <rect key="frame" x="272" y="314" width="22" height="22"/>
@@ -344,6 +452,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="61d-IO-vJb"/>
                                                 </constraints>
                                                 <state key="normal" title="I"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="avF-MF-7nB"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLa-uK-KDJ" userLabel="mobileL">
                                                 <rect key="frame" x="302" y="313" width="22" height="22"/>
@@ -352,6 +463,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="wt1-wr-FK5"/>
                                                 </constraints>
                                                 <state key="normal" title="L"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="opi-ZP-2DJ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kbf-XE-Kc7" userLabel="hireE">
                                                 <rect key="frame" x="270" y="491" width="22" height="22"/>
@@ -360,6 +474,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="Fzm-QO-BzG"/>
                                                 </constraints>
                                                 <state key="normal" title="E"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eoO-It-KiQ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPm-Yo-YCd" userLabel="hireR">
                                                 <rect key="frame" x="270" y="462" width="22" height="22"/>
@@ -368,6 +485,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="coq-WX-ZnB"/>
                                                 </constraints>
                                                 <state key="normal" title="R"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cqw-Qh-z4e"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hOo-9G-IvJ" userLabel="hireH">
                                                 <rect key="frame" x="270" y="402" width="22" height="22"/>
@@ -376,6 +496,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="yHu-X1-ZxW"/>
                                                 </constraints>
                                                 <state key="normal" title="H"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b0d-I3-8TH"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySI-Ap-yPU" userLabel="javaA">
                                                 <rect key="frame" x="152" y="342" width="22" height="22"/>
@@ -385,7 +508,7 @@
                                                 </constraints>
                                                 <state key="normal" title="A"/>
                                                 <connections>
-                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X9t-2j-E2N"/>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="agp-XS-vhp"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f90-VY-uot" userLabel="javaA2">
@@ -395,6 +518,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="s5S-cL-Jnj"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Shr-le-YOc"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ayJ-Gb-eOI" userLabel="javaV">
                                                 <rect key="frame" x="152" y="373" width="22" height="22"/>
@@ -403,6 +529,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="f4i-CM-IQb"/>
                                                 </constraints>
                                                 <state key="normal" title="V"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0VD-Ll-KsX"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFS-xl-8at" userLabel="javaJ">
                                                 <rect key="frame" x="152" y="313" width="22" height="22"/>
@@ -411,6 +540,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="P72-vg-hJB"/>
                                                 </constraints>
                                                 <state key="normal" title="J"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T3g-c3-42B"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAi-4k-THB" userLabel="variableL">
                                                 <rect key="frame" x="302" y="224" width="22" height="22"/>
@@ -419,6 +551,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="S01-bp-QKU"/>
                                                 </constraints>
                                                 <state key="normal" title="L"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tjG-ey-XvU"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Dw-Yy-wJJ" userLabel="variableA">
                                                 <rect key="frame" x="152" y="224" width="22" height="22"/>
@@ -427,6 +562,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="sKf-sx-4JW"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VvK-Eb-swb"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A6F-cg-B1J" userLabel="variableR">
                                                 <rect key="frame" x="181" y="223" width="22" height="22"/>
@@ -435,6 +573,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="Wbx-Z1-aFI"/>
                                                 </constraints>
                                                 <state key="normal" title="R"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C6v-bg-jHD"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="duh-op-253" userLabel="variableI">
                                                 <rect key="frame" x="210" y="223" width="22" height="22"/>
@@ -443,6 +584,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="ljn-Zl-pFk"/>
                                                 </constraints>
                                                 <state key="normal" title="I"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GKX-Sw-VSH"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgl-80-WDQ" userLabel="variableA2">
                                                 <rect key="frame" x="242" y="223" width="22" height="22"/>
@@ -451,6 +595,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="k52-0w-doj"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jjW-9J-QKg"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJ2-VY-m3G" userLabel="variableB">
                                                 <rect key="frame" x="273" y="223" width="22" height="22"/>
@@ -459,6 +606,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="n1Q-uw-RTT"/>
                                                 </constraints>
                                                 <state key="normal" title="B"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jiL-Os-Tn0"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7RB-CU-pZs" userLabel="variableV">
                                                 <rect key="frame" x="122" y="224" width="22" height="22"/>
@@ -467,6 +617,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="kbu-RF-8gO"/>
                                                 </constraints>
                                                 <state key="normal" title="V"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hBo-tL-gMW"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6yG-N0-IGv" userLabel="swiftS">
                                                 <rect key="frame" x="122" y="461" width="22" height="22"/>
@@ -475,6 +628,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="P5q-hy-J8G"/>
                                                 </constraints>
                                                 <state key="normal" title="S"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J3h-71-QPC"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g4a-9l-IEA">
                                                 <rect key="frame" x="91" y="252" width="22" height="22"/>
@@ -483,6 +639,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="rCd-A7-eUg"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y7V-Oj-EMD"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ryU-YY-Uy0">
                                                 <rect key="frame" x="91" y="283" width="22" height="22"/>
@@ -491,6 +650,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="ZNz-Hv-sOo"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DIc-Ye-6oE"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QtG-Ql-x18">
                                                 <rect key="frame" x="122" y="254" width="22" height="22"/>
@@ -499,6 +661,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="4No-ff-h4x"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xOO-Db-T0p"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dDT-AJ-eye">
                                                 <rect key="frame" x="152" y="252" width="22" height="22"/>
@@ -507,6 +672,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="zFS-wO-GhU"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uog-cf-2LK"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Odi-9v-ih6">
                                                 <rect key="frame" x="181" y="253" width="22" height="22"/>
@@ -515,6 +683,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="eQp-Qw-TwP"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GFD-mD-XTS"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K1W-yC-ZzP">
                                                 <rect key="frame" x="210" y="255" width="22" height="22"/>
@@ -523,6 +694,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="XRf-gt-YAN"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7GC-Cj-0yP"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ysg-Ce-Adf">
                                                 <rect key="frame" x="243" y="253" width="22" height="22"/>
@@ -531,6 +705,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="cPF-NE-Yuy"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KTN-ia-OXe"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Swf-iL-hjg">
                                                 <rect key="frame" x="273" y="250" width="22" height="22"/>
@@ -539,6 +716,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="lMC-le-Kmr"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w1R-8R-aHm"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SRD-Yi-FVs">
                                                 <rect key="frame" x="302" y="254" width="22" height="22"/>
@@ -547,6 +727,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="46B-1e-MV9"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="biP-ap-ssf"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z91-cJ-Fh8">
                                                 <rect key="frame" x="330" y="253" width="22" height="22"/>
@@ -555,6 +738,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="HTg-Tl-F2m"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0fB-TA-HR1"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfb-Zi-YJN">
                                                 <rect key="frame" x="302" y="283" width="22" height="22"/>
@@ -563,6 +749,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="PfY-cI-YsR"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x7e-oc-z7X"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Why-ut-glP">
                                                 <rect key="frame" x="330" y="282" width="22" height="22"/>
@@ -571,6 +760,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="Xtr-62-VxQ"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iR7-rx-XYW"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JLH-zv-3MS">
                                                 <rect key="frame" x="122" y="313" width="22" height="22"/>
@@ -579,6 +771,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="qRA-ui-QBC"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S1k-d3-0yf"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYk-ki-ddu">
                                                 <rect key="frame" x="122" y="342" width="22" height="22"/>
@@ -587,6 +782,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="Z3w-wd-FIy"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B3X-bN-keR"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UCY-yu-A8j">
                                                 <rect key="frame" x="122" y="372" width="22" height="22"/>
@@ -595,6 +793,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="xyu-cw-InD"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wsh-ab-rBD"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rim-zD-Vny">
                                                 <rect key="frame" x="122" y="402" width="22" height="22"/>
@@ -603,6 +804,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="hMb-nm-FQh"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D8r-z3-RHH"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XNk-mJ-V4z">
                                                 <rect key="frame" x="122" y="433" width="22" height="22"/>
@@ -611,6 +815,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="ykS-Wy-7df"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mtB-vB-FSY"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2u-xM-n5g">
                                                 <rect key="frame" x="91" y="491" width="22" height="22"/>
@@ -619,6 +826,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="T1o-O2-rre"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sbr-bW-2jT"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9j-ck-URY">
                                                 <rect key="frame" x="122" y="491" width="22" height="22"/>
@@ -627,6 +837,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="FaI-U8-3dw"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DYm-qf-Z0M"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tuj-MQ-bra">
                                                 <rect key="frame" x="151" y="490" width="22" height="22"/>
@@ -635,6 +848,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="dPj-og-HpV"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="axI-7w-y6n"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MsQ-dQ-8t6">
                                                 <rect key="frame" x="181" y="490" width="22" height="22"/>
@@ -643,6 +859,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="fMq-jL-dGL"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u8I-yC-cPn"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecV-dX-eaV">
                                                 <rect key="frame" x="212" y="490" width="22" height="22"/>
@@ -651,6 +870,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="a7g-Jr-ubx"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RIj-95-NEw"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xVa-aL-fjH">
                                                 <rect key="frame" x="243" y="489" width="22" height="22"/>
@@ -659,6 +881,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="fYc-2g-6bd"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qaT-9R-mz4"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ylb-Jt-Ppc">
                                                 <rect key="frame" x="302" y="490" width="22" height="22"/>
@@ -667,6 +892,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="yqJ-nC-oUa"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KCF-ZC-hoj"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bim-T6-vdm">
                                                 <rect key="frame" x="300" y="462" width="22" height="22"/>
@@ -675,6 +903,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="UYk-hJ-Wgc"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3mf-Xn-qvV"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSK-z8-cIW">
                                                 <rect key="frame" x="302" y="432" width="22" height="22"/>
@@ -683,6 +914,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="syr-GI-3BE"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rhA-hX-tJ1"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZrA-KB-HrJ">
                                                 <rect key="frame" x="302" y="402" width="22" height="22"/>
@@ -691,6 +925,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="6ZX-io-5S8"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ACj-H7-s8E"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqp-7n-ymd">
                                                 <rect key="frame" x="300" y="372" width="22" height="22"/>
@@ -699,6 +936,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="pbF-CK-mJD"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2zt-1Y-3qO"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eia-G3-hMz">
                                                 <rect key="frame" x="330" y="342" width="22" height="22"/>
@@ -707,6 +947,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="WLa-AI-NPV"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cfl-ku-ASm"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVg-5W-qL8">
                                                 <rect key="frame" x="302" y="343" width="22" height="22"/>
@@ -715,6 +958,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="pCg-ES-Nu4"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eEk-5z-94E"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gDT-Yg-hFs">
                                                 <rect key="frame" x="272" y="342" width="22" height="22"/>
@@ -723,6 +969,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="oZg-55-p1K"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iaI-pp-PdF"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vBA-T2-Mmz">
                                                 <rect key="frame" x="272" y="371" width="22" height="22"/>
@@ -731,6 +980,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="inG-Zy-ZJa"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w41-VO-nHk"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ph-6S-qTT">
                                                 <rect key="frame" x="181" y="341" width="22" height="22"/>
@@ -739,6 +991,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="Qgj-47-vwl"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XDq-0s-ntj"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJN-yc-pF8">
                                                 <rect key="frame" x="181" y="372" width="22" height="22"/>
@@ -747,6 +1002,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="voq-B2-Pc6"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ENZ-FZ-LXh"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oXz-Tu-FKc">
                                                 <rect key="frame" x="182" y="402" width="22" height="22"/>
@@ -755,6 +1013,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="jsd-m3-rTK"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fRt-G4-Eyi"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V9M-T3-bnO">
                                                 <rect key="frame" x="152" y="431" width="22" height="22"/>
@@ -763,6 +1024,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="cq2-SG-MgA"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mXa-2r-qdc"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Jz-C3-oHD">
                                                 <rect key="frame" x="182" y="432" width="22" height="22"/>
@@ -771,6 +1035,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="f1z-Qz-r4G"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="86m-hM-FkI"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SZr-Kb-SKM">
                                                 <rect key="frame" x="212" y="344" width="22" height="22"/>
@@ -779,6 +1046,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="t2n-K3-qXB"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MWT-h4-nXL"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RsI-PW-5Bb">
                                                 <rect key="frame" x="212" y="373" width="22" height="22"/>
@@ -787,6 +1057,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="wB5-vn-K6N"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f0Z-kU-ZOc"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDw-hl-T3F">
                                                 <rect key="frame" x="212" y="403" width="22" height="22"/>
@@ -795,6 +1068,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="Jr2-4P-26t"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="min-43-sa4"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MUJ-Et-UXt">
                                                 <rect key="frame" x="212" y="432" width="22" height="22"/>
@@ -803,6 +1079,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="xC8-zz-vYA"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cs0-Rz-IFl"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2na-3j-ypD">
                                                 <rect key="frame" x="242" y="343" width="22" height="22"/>
@@ -811,6 +1090,9 @@
                                                     <constraint firstAttribute="width" constant="22" id="ebc-hf-epi"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lpM-eS-Bzw"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3zs-Mi-lI5">
                                                 <rect key="frame" x="243" y="373" width="22" height="22"/>
@@ -819,6 +1101,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="lkD-Ph-0sQ"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xU9-Pt-JpC"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qf1-10-UYM">
                                                 <rect key="frame" x="242" y="403" width="22" height="22"/>
@@ -827,6 +1112,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="wAV-BS-qM1"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Az-6d-Lbe"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ize-Qd-Zme">
                                                 <rect key="frame" x="242" y="433" width="22" height="22"/>
@@ -835,6 +1123,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="cgl-cG-sDl"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rr2-Mo-ME8"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9I0-VQ-Xwi">
                                                 <rect key="frame" x="91" y="222" width="22" height="22"/>
@@ -843,6 +1134,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="ssj-WS-m4C"/>
                                                 </constraints>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="letterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dwM-KQ-lGq"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -1350,6 +1644,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="Hire" destination="km7-0d-ggs" id="S6x-1z-Rbn"/>
+                        <outlet property="Intern" destination="Rsh-c7-hGZ" id="aAP-b0-8zo"/>
+                        <outlet property="Java" destination="ezr-Ok-edX" id="sv7-8r-eay"/>
+                        <outlet property="Kotlin" destination="isj-Uu-wNf" id="Z8F-2G-TQb"/>
+                        <outlet property="Learn" destination="00r-XB-8HF" id="xbS-pZ-WLQ"/>
+                        <outlet property="Mobile" destination="oot-zs-0OQ" id="gfh-za-CKd"/>
+                        <outlet property="ObjectiveC" destination="YZa-lp-bjQ" id="wsV-YJ-bD5"/>
+                        <outlet property="Swift" destination="Ouc-3M-qkf" id="MbK-D8-xUK"/>
+                        <outlet property="Variable" destination="fZS-c3-Rhf" id="GWI-dN-l6G"/>
                         <outlet property="hireE" destination="Kbf-XE-Kc7" id="n8L-oX-FX9"/>
                         <outlet property="hireH" destination="hOo-9G-IvJ" id="5rs-zc-Fvl"/>
                         <outlet property="hireI" destination="z05-hN-ZxI" id="kBG-4Q-Zv4"/>
