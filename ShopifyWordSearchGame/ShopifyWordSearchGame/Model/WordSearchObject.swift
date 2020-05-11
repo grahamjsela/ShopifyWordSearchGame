@@ -9,5 +9,5 @@
 import Foundation
 
 struct wordSearchObject {
-    
+    var words = ["OBJECTIVEC", "KOTLIN", "HIRE", "LEARN", "INTERN", "SWIFT", "MOBILE", "VARIABLE", "JAVA"]
 }
