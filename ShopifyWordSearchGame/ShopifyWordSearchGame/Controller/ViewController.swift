@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     //Connect the way too many buttons and labels into the viewcontroller.
     
     @IBOutlet weak var foundWordsLabel: UILabel!
+    @IBOutlet weak var winnerLabel: UILabel!
     
     @IBOutlet weak var Swift: UILabel!
     @IBOutlet weak var Kotlin: UILabel!
@@ -156,6 +157,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Initialize the scoreboard
         foundWordsLabel.text = "Found Words: 0/9"
+        winnerLabel.text = ""
         
     }
     
@@ -235,6 +237,8 @@ class ViewController: UIViewController {
         
         foundWordsLabel.text = "Found Words : \(score)/9"
         
+        
+        
         if (wordFind == "KOTLIN") {
             
             Kotlin.backgroundColor = UIColor.green
@@ -272,8 +276,14 @@ class ViewController: UIViewController {
             Mobile.backgroundColor = UIColor.green
             
         }
+        
+        if score == 9 {
+            winner()
+        }
     }
     
-    
+    func winner() {
+        winnerLabel.text = "YOUVE WON! GOOD JOB!"
+    }
 }
 
