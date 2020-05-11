@@ -5,11 +5,19 @@
 //  Created by Graham Sela on 2020-05-08.
 //  Copyright © 2020 Graham Sela. All rights reserved.
 //
+//  A word search game that was a suggested IOS app build to apply
+//  for an IOS internship at Shopify.
+//  Project could certainly be simplified.
+//
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    //Connect the way too many buttons and labels into the viewcontroller.
+    
+    @IBOutlet weak var foundWordsLabel: UILabel!
+    
     @IBOutlet weak var Swift: UILabel!
     @IBOutlet weak var Kotlin: UILabel!
     @IBOutlet weak var ObjectiveC: UILabel!
@@ -130,83 +138,139 @@ class ViewController: UIViewController {
     @IBOutlet weak var hireR: UIButton!
     @IBOutlet weak var hireE: UIButton!
     
+    //  Initializing global variables:
+    //  wordFind is a string that contains all guessed letters so that it can compare to a predefined set of words.
+    //  wordSearchObject creates an object of the struct WordSearchObject. The struct contains all the words that have been predefined as search words.
+    //  colorArray stores the UIButtons that have been selected for coloring purposes. Will color a button yellow when it has been selected, and will color a selection of buttons green when a word has been found.
+    //  score simply stores how many words have been found.
     var wordFind: String! = ""
     
     var wordSearchObject = WordSearchObject()
     
     var colorArray: [UIButton]! = []
     
+    var score = 0
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        // Initialize the scoreboard
+        foundWordsLabel.text = "Found Words: 0/9"
         
     }
     
     
     @IBAction func letterClicked(_ sender: UIButton) {
-        //Need to create a word that keeps track of letters clicked. compare against struct.
+        //  Function that triggers when a letter has been selected.
+        //  Adds the new letter to a string to compare to the words.
+        //  Adds the UIButton to an array for use of coloring.
+        //  Calls a function charGuess that will determine what to do based on the letter that was selected.
 
         wordFind = wordFind + String(sender.currentTitle!)
-        
-        print(wordFind!)
-        
-        charGuess(sender)
+        colorArray.append(sender)
+        charGuess()
     }
     
-    func reset() {
-        
-        wordFind = ""
-        for element in colorArray {
-            element.backgroundColor = UIColor.clear
-        }
-        colorArray.removeAll()
-        
-    }
     
-    func charGuess(_ sender: UIButton) {
-        
+    
+    func charGuess() {
+        //  charGuess first goes through all the words in the predefined/
+        //  In the occasion that the letter or combination does match with a word, then
+        //  the program checks as to whether it is the full word that has matched. If it has matched fully,
+        //  the program then changes the found letters to green, as well as the word in the dictionary.
+        //  And also removes the UIButtons from the colorArray Array.
+        //  If it is not a full match and just a combination of chars that matches, then it colors the new char as yellow
+        //  and returns out of the function.
+        //  If no chars match, then the program calls the reset function.
         
         for word in wordSearchObject.words {
+            
             if word.hasPrefix(wordFind) {
-                if wordFind.count == word.count{
+                
+                if wordFind.count == word.count {
                     
-                    for element in colorArray{
+                    for element in colorArray {
+                        
                         element.backgroundColor = UIColor.green
-                        colorArray.removeAll()
-                        foundWord();
+                        
                     }
                     
+                    colorArray.removeAll()
+                    foundWord();
+                    
                 } else{
-                    sender.backgroundColor = UIColor.yellow
-                    colorArray.append(sender)
+                    
+                    colorArray[colorArray.count - 1].backgroundColor = UIColor.yellow
+                    
                     return
                     
                 }
             }
         }
+        
         reset()
     }
     
+    func reset() {
+    //  The reset function gets rid of all chars in the wordFind string. And resets all yellow colored chars back to clear.
+    //  It also removes all the UIButtons from the colorArray.
+        
+        wordFind = ""
+        
+        for element in colorArray {
+            
+            element.backgroundColor = UIColor.clear
+            
+        }
+        
+        colorArray.removeAll()
+        
+    }
+    
     func foundWord() {
+    // The foundWord function does two things. Updates the score of the game.
+    //  And figures out which word in the dictionary needs to be changed to green as in it has been found.
+        
+        score += 1
+        
+        foundWordsLabel.text = "Found Words : \(score)/9"
         
         if (wordFind == "KOTLIN") {
+            
             Kotlin.backgroundColor = UIColor.green
+            
         } else if (wordFind == "VARIABLE") {
+            
            Variable.backgroundColor = UIColor.green
+            
         } else if (wordFind == "JAVA") {
+            
             Java.backgroundColor = UIColor.green
+            
         } else if (wordFind == "INTERN") {
+            
             Intern.backgroundColor = UIColor.green
+            
         } else if (wordFind == "HIRE") {
+            
             Hire.backgroundColor = UIColor.green
+            
         } else if (wordFind == "LEARN") {
+            
             Learn.backgroundColor = UIColor.green
+            
         } else if (wordFind == "SWIFT") {
+            
             Swift.backgroundColor = UIColor.green
+            
         } else if (wordFind == "OBJECTIVEC") {
+            
             ObjectiveC.backgroundColor = UIColor.green
+            
         } else if (wordFind == "MOBILE") {
+            
             Mobile.backgroundColor = UIColor.green
+            
         }
     }
     
