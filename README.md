@@ -11,5 +11,5 @@ Some of the words found:
 
 All of the words found:
 
-![](allwordsfound.png)
+![](images/allwordsfound.png)
 
